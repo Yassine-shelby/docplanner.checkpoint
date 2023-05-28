@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px 20px;
+  list-style-type: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: darkgray;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: aquamarine;
+}
+.dlogo {
+  align-content: center;
+  justify-content: center;
+}
+.title {
+  color: aqua;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: darkslategray;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.item {
+  width: 300px;
+  height: 300px;
+  margin: 200px auto;
+  background: aqua;
+  border-radius: 3%;
+  text-align: center;
+}
+
+.itm2 {
+  width: 300px;
+  height: 300px;
+  margin: 200px auto;
+  background: rgb(0, 132, 255);
+  border-radius: 3%;
+  text-align: center;
+}
+
+.itm3 {
+  width: 300px;
+  height: 300px;
+  margin: 200px auto;
+  background: darkblue;
+  border-radius: 3%;
+  text-align: center;
+}
+.item h2 {
+  color: white;
+}
+.item p {
+  color: white;
+}
+.itm2 h2 {
+  color: white;
+}
+.itm2 p {
+  color: white;
+}
+.itm3 h2 {
+  color: white;
+}
+.itm3 p {
+  color: white;
+}
+.country {
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: underline;
+}
+.country2 {
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: underline;
+}
+.specialist {
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: underline;
+}
+.prg {
+  text-align: left;
+  color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: flex-start;
+}
